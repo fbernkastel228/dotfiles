@@ -133,12 +133,14 @@ mode "resize" {
 # screenshots
 bindsym $mod+s exec --no-startup-id maim -s ~/Pictures/$(date +%s).png
 
-# post
+# etc
 exec --no-startup-id ~/.fehbg
 exec --no-startup-id "setxkbmap -layout us,ru -option grp:alt_shift_toggle" # you can comment this line or replace RU with your language
-exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id pkill dunst && dunst -config ~/.config/dunst/dunstrc
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf -b
 
-# bar {}
+# Основной запуск с задержкой
+exec --no-startup-id "sleep 3 && ~/.config/polybar/launch.sh"
 
+# Дополнительный наблюдатель (опционально)
+exec --no-startup-id "while true; do ~/.config/polybar/launch.sh; sleep 30; done"

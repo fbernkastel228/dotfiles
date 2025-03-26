@@ -8,7 +8,7 @@ soon.
 | Hotkey                        | What it doing  |
 | ----------------------------- | -------------- | 
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Reload i3    |
-| <kbd>Super</kdb> + <kdb>RMB   | Resize         |
+| <kbd>Super</kdb> + <kdb>RMB</kdb>   | Resize         |
 | <kbd>Super</kbd> + <kbd>D</kbd> | Rofi           |
 | <kbd>Super</kbd> + <kbd>X</kbd> | Kills focused window|
 | <kbd>Super</kbd> + <kbd>Q</kbd> | Alacritty      |
