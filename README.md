@@ -4,7 +4,7 @@ my dotfiles
 ## Screenshots
 soon.
 
-## hotkeys
+## Hotkeys
 | Hotkey                        | What it doing  |
 | ----------------------------- | -------------- | 
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Reload i3    |
