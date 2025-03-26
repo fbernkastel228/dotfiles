@@ -16,5 +16,5 @@ soon.
 | <kbd>Super</kbd> + <kbd>S</kbd> | Maim       |
 
 ## Current problems
-- Blur if open maim (doesn't apply to screenshots)
+- Blur if open maim (Same with screenshots if you take screenshot of not a focused window)
 - Animations doesn't work 
