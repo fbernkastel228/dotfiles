@@ -2,7 +2,8 @@
 my dotfiles
 
 ## Screenshots
-soon.
+![image](https://github.com/user-attachments/assets/d288d709-c2b4-4df7-9bf5-d6187028f0c5)
+
 
 ## Hotkeys
 | Hotkey                        | What it doing  |
