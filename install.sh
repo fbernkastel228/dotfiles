@@ -34,6 +34,6 @@ if [[ -r /etc/os-release ]]; then
     execute_script "./install/stage2install.sh"
     exit 0
 else
-    echo "No access rights or the /etc/os-release file could not be found."
+    echo "No access rights or the /etc/os-release file could not be found. Also, make sure you using bash right now."
     exit 1
 fi
