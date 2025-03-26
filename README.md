@@ -1,6 +1,9 @@
 # dotfiles
 my dotfiles
 
+## Screenshots
+soon.
+
 ## hotkeys
 | Hotkey                        | What it doing  |
 | ----------------------------- | -------------- | 
@@ -11,3 +14,7 @@ my dotfiles
 | <kbd>Super</kbd> + <kbd>V</kbd> | Tiling/Floating window |
 | <kbd>Super</kbd> + <kbd>E</kbd> | Exit from i3     |
 | <kbd>Super</kbd> + <kbd>S</kbd> | Maim       |
+
+## Current problems
+- Blur if open maim (doesn't apply to screenshots)
+- Animations doesn't work 
