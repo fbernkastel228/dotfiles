@@ -18,4 +18,5 @@ my dotfiles
 | <kbd>Super</kbd> + <kbd>S</kbd> | Maim       |
 
 ## Current problems
-- Animations doesn't work 
+- Animations doesn't work
+- Polybar works unstable on 2 or more monitors
