@@ -1,1 +1,0 @@
-sleep 5 && ~/.config/polybar/launch.sh
