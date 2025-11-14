@@ -56,7 +56,7 @@ bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id rofi -show run
-bindsym $mod+d exec --no-startup-id dmenu_run -b
+bindsym $mod+d exec --no-startup-id "dmenu_run -b -nf '#C5C8C6' -nb '#282A2E' -sb '#B70CF5' -sf '#F7F7F7' -fn 'monospace-10' -p 'dmenu prompt &gt;'"
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -128,6 +128,16 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 #bar {
 #        status_command i3status
 #}
+
+# Colors
+# class                 border  bground text    indicator child_border
+client.focused          #BB00FF #B70CF5 #F7F7F7 #A54242   #bb00ff
+client.focused_inactive #333333 #5F676A #C5C8C6 #484E50   #5F676A
+client.unfocused        #333333 #222222 #888888 #292D2E   #222222
+client.urgent           #2F343A #A54242 #FFFFFF #A54242   #A54242
+client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+
+client.background       #FFFFFF
 
 # Screen brightness controls
 bindsym XF86MonBrightnessDown exec brightnessctl --min-val=2 -q set 3%-
